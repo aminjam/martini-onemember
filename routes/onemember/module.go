@@ -35,8 +35,8 @@ func Handler(c martini.Context) {
 func init() {
 	options := make(map[string]*oa2.Client)
 	options["google"] = oa2.Google(oa2.Client{
-		ClientId:     "49888497275-1f4pes2aqilr063ruede5hl40s8cqprf.apps.googleusercontent.com",
-		ClientSecret: "zn48UOH_G9AuUrUQu9oWc3fK",
+		ClientId:     "myClient",
+		ClientSecret: "mySecret",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/userinfo.email"},
 		RedirectURL:  "http://localhost:3000/onemember/callback/google",
 		ClaimsBuilder: func(accessToken string) (claims map[string]string, err error) {
