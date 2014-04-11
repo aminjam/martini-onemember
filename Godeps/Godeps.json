@@ -1,0 +1,53 @@
+{
+	"ImportPath": "github.com/aminjam/martini-onemember",
+	"GoVersion": "go1.2.1",
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/goauth2/oauth",
+			"Comment": "weekly-43",
+			"Rev": "d4571a95014ff1fdd0055dc0f6b7e977a42b1e5a"
+		},
+		{
+			"ImportPath": "github.com/aminjam/onemember",
+			"Rev": "c6c0f14ef05d77a645a49f6fb283dc436ed28c07"
+		},
+		{
+			"ImportPath": "github.com/aminjam/onememberoauth2",
+			"Rev": "80b24d731a401901e71e74b2cef3cfd44704d88b"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Rev": "9aea7a2fa5b79ef7fc00f63a575e72df33b4e886"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/martini",
+			"Comment": "v0.1-147-g6b55f66",
+			"Rev": "6b55f66fb550ee38ca12b276ad57ae4338532e21"
+		},
+		{
+			"ImportPath": "github.com/couchbaselabs/go-couchbase",
+			"Rev": "df37838e6ce0001da63a10d0d9e37374136bce32"
+		},
+		{
+			"ImportPath": "github.com/dustin/gomemcached",
+			"Rev": "3bc2b0e8fd5d0304d37f246b38cde753803cee41"
+		},
+		{
+			"ImportPath": "github.com/jameskeane/bcrypt",
+			"Rev": "c3cd44c1e20fec46baad45b108a45be93394dc8d"
+		},
+		{
+			"ImportPath": "github.com/martini-contrib/encoder",
+			"Rev": "c29945a3304c69560cf5ee717d995316ccc61ae8"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "6b97cff17f16aef812d5c55c4892d40732d79eef"
+		},
+		{
+			"ImportPath": "labix.org/v2/mgo",
+			"Comment": "273",
+			"Rev": "gustavo@niemeyer.net-20140312230639-09nxw5qqax6dlcqh"
+		}
+	]
+}
